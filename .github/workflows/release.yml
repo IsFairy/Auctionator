@@ -16,6 +16,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: IsFairy/packager@v1
+      - uses: IsFairy/packager@v1.0.0
         env:
           GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
